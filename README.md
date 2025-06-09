@@ -24,15 +24,6 @@ The system models two species:
 - `a(t)`: Prey (antelope) population  
 - `c(t)`: Predator (cheetah) population  
 
-Equations:
-
-\[
-\frac{da}{dt} = k_a \cdot a - k_{ca} \cdot a \cdot c
-\]  
-\[
-\frac{dc}{dt} = -k_c \cdot c + k_{ac} \cdot a \cdot c
-\]
-
 Parameters:
 
 - `k_a = 1.0` → Prey birth rate  
